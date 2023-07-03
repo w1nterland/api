@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
+    message: 'main page; to use api go to /api/v1/(youtube_id)',
   });
 });
 
